@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy
+opencv-python
+scikit-learn
+joblib
+pywavelets
+flask 
+flask-cors 
+numpy
+python-multipart
+tensorflow
+mtcnn
+gunicorn

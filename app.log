@@ -1,0 +1,218 @@
+2026-03-30 12:37:06,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-30 12:37:06,693 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 12:37:06,700 - INFO -  * Restarting with stat
+2026-03-30 12:37:08,577 - WARNING -  * Debugger is active!
+2026-03-30 12:37:08,595 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:38:03,851 - INFO - 127.0.0.1 - - [30/Mar/2026 12:38:03] "GET / HTTP/1.1" 200 -
+2026-03-30 12:38:04,128 - INFO - 127.0.0.1 - - [30/Mar/2026 12:38:04] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 12:38:11,560 - ERROR - 0
+2026-03-30 12:38:11,561 - INFO - 127.0.0.1 - - [30/Mar/2026 12:38:11] "[35m[1mPOST /api/classify HTTP/1.1[0m" 500 -
+2026-03-30 12:38:35,383 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 12:38:35,771 - INFO -  * Restarting with stat
+2026-03-30 12:38:37,822 - WARNING -  * Debugger is active!
+2026-03-30 12:38:37,840 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:38:43,037 - INFO - Prediction: {'class': 'cristiano ronaldo', 'confidence': 95.88, 'probabilities': [95.88, 0.28, 2.91, 0.34, 0.6]}
+2026-03-30 12:38:43,038 - INFO - 127.0.0.1 - - [30/Mar/2026 12:38:43] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:38:56,891 - INFO - 127.0.0.1 - - [30/Mar/2026 12:38:56] "[33mGET /analytic HTTP/1.1[0m" 404 -
+2026-03-30 12:39:04,402 - INFO - 127.0.0.1 - - [30/Mar/2026 12:39:04] "GET /analytics HTTP/1.1" 200 -
+2026-03-30 12:39:04,570 - INFO - 127.0.0.1 - - [30/Mar/2026 12:39:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-30 12:39:27,946 - WARNING - No face detected / invalid input
+2026-03-30 12:39:27,946 - INFO - 127.0.0.1 - - [30/Mar/2026 12:39:27] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:39:35,876 - WARNING - No face detected / invalid input
+2026-03-30 12:39:35,877 - INFO - 127.0.0.1 - - [30/Mar/2026 12:39:35] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:39:43,243 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 70.73, 'probabilities': [13.51, 70.73, 8.06, 6.48, 1.21]}
+2026-03-30 12:39:43,244 - INFO - 127.0.0.1 - - [30/Mar/2026 12:39:43] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:40:13,703 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:13] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:40:20,301 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:20] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:40:23,591 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:23] "GET / HTTP/1.1" 200 -
+2026-03-30 12:40:23,799 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-30 12:40:29,496 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 83.15, 'probabilities': [1.53, 1.34, 11.25, 2.73, 83.15]}
+2026-03-30 12:40:29,497 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:29] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:40:32,987 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:32] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:40:37,941 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:37] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:40:46,888 - INFO - Prediction: {'class': 'Unknown', 'confidence': 34.88}
+2026-03-30 12:40:46,889 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:46] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:40:51,312 - WARNING - No face detected / invalid input
+2026-03-30 12:40:51,313 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:51] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:40:55,939 - WARNING - No face detected / invalid input
+2026-03-30 12:40:55,939 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:55] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:40:59,811 - WARNING - No face detected / invalid input
+2026-03-30 12:40:59,812 - INFO - 127.0.0.1 - - [30/Mar/2026 12:40:59] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:41:03,436 - WARNING - No face detected / invalid input
+2026-03-30 12:41:03,436 - INFO - 127.0.0.1 - - [30/Mar/2026 12:41:03] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:41:05,168 - INFO - 127.0.0.1 - - [30/Mar/2026 12:41:05] "GET / HTTP/1.1" 200 -
+2026-03-30 12:41:05,323 - INFO - 127.0.0.1 - - [30/Mar/2026 12:41:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-30 12:41:11,945 - WARNING - No face detected / invalid input
+2026-03-30 12:41:11,946 - INFO - 127.0.0.1 - - [30/Mar/2026 12:41:11] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:41:49,697 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 12:41:49,975 - INFO -  * Restarting with stat
+2026-03-30 12:42:02,019 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-30 12:42:02,019 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 12:42:02,020 - INFO -  * Restarting with stat
+2026-03-30 12:42:03,952 - WARNING -  * Debugger is active!
+2026-03-30 12:42:03,975 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:42:10,661 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 83.15, 'probabilities': [1.53, 1.34, 11.25, 2.73, 83.15], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 12:42:10,661 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:10] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:42:16,913 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:16] "GET /analytics HTTP/1.1" 200 -
+2026-03-30 12:42:17,028 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-30 12:42:23,269 - WARNING - No face detected / invalid input
+2026-03-30 12:42:23,269 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:23] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:42:28,286 - WARNING - No face detected / invalid input
+2026-03-30 12:42:28,287 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:28] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:42:32,135 - WARNING - No face detected / invalid input
+2026-03-30 12:42:32,136 - INFO - 127.0.0.1 - - [30/Mar/2026 12:42:32] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:43:05,977 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 12:43:06,246 - INFO -  * Restarting with stat
+2026-03-30 12:43:08,684 - WARNING -  * Debugger is active!
+2026-03-30 12:43:08,711 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:43:16,090 - WARNING - No face detected / invalid input
+2026-03-30 12:43:16,092 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:16] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:43:20,596 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 83.15, 'probabilities': [1.53, 1.34, 11.25, 2.73, 83.15], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 12:43:20,597 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:20] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:43:25,617 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 94.87, 'probabilities': [1.07, 0.16, 3.3, 0.6, 94.87], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 12:43:25,618 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:25] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:43:34,248 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:34] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:43:40,068 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:40] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:43:45,468 - INFO - Prediction: {'class': 'Unknown', 'confidence': 34.88}
+2026-03-30 12:43:45,469 - INFO - 127.0.0.1 - - [30/Mar/2026 12:43:45] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:44:51,149 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 12:44:51,382 - INFO -  * Restarting with stat
+2026-03-30 12:44:54,214 - WARNING -  * Debugger is active!
+2026-03-30 12:44:54,243 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:45:01,375 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 94.87, 'probabilities': [1.07, 0.16, 3.3, 0.6, 94.87], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 12:45:01,376 - INFO - 127.0.0.1 - - [30/Mar/2026 12:45:01] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:45:08,145 - WARNING - No face detected / invalid input
+2026-03-30 12:45:08,146 - INFO - 127.0.0.1 - - [30/Mar/2026 12:45:08] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:45:12,712 - WARNING - No face detected / invalid input
+2026-03-30 12:45:12,713 - INFO - 127.0.0.1 - - [30/Mar/2026 12:45:12] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:45:16,691 - WARNING - No face detected / invalid input
+2026-03-30 12:45:16,692 - INFO - 127.0.0.1 - - [30/Mar/2026 12:45:16] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 12:45:21,398 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 12:45:21,667 - INFO -  * Restarting with stat
+2026-03-30 12:45:24,011 - WARNING -  * Debugger is active!
+2026-03-30 12:45:24,033 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:47:03,628 - INFO - 127.0.0.1 - - [30/Mar/2026 12:47:03] "GET / HTTP/1.1" 200 -
+2026-03-30 12:47:12,505 - INFO - 127.0.0.1 - - [30/Mar/2026 12:47:12] "GET / HTTP/1.1" 200 -
+2026-03-30 12:47:18,450 - INFO - 127.0.0.1 - - [30/Mar/2026 12:47:18] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 12:47:18,450 - INFO - 127.0.0.1 - - [30/Mar/2026 12:47:18] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 12:47:50,450 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 12:47:50,606 - INFO -  * Restarting with stat
+2026-03-30 12:56:56,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-30 12:56:56,165 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 12:56:56,182 - INFO -  * Restarting with stat
+2026-03-30 12:57:03,854 - WARNING -  * Debugger is active!
+2026-03-30 12:57:03,871 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:57:19,939 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 12:57:25,491 - INFO -  * Restarting with stat
+2026-03-30 12:57:31,466 - WARNING -  * Debugger is active!
+2026-03-30 12:57:31,483 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 12:58:51,759 - INFO - 127.0.0.1 - - [30/Mar/2026 12:58:51] "GET / HTTP/1.1" 200 -
+2026-03-30 12:58:52,638 - INFO - 127.0.0.1 - - [30/Mar/2026 12:58:52] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 12:58:59,499 - INFO - 127.0.0.1 - - [30/Mar/2026 12:58:59] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 12:59:19,185 - ERROR - X has 16384 features, but StandardScaler is expecting 4096 features as input.
+2026-03-30 12:59:19,186 - INFO - 127.0.0.1 - - [30/Mar/2026 12:59:19] "[35m[1mPOST /api/classify HTTP/1.1[0m" 500 -
+2026-03-30 12:59:34,079 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 12:59:37,694 - INFO -  * Restarting with stat
+2026-03-30 13:00:20,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-30 13:00:20,874 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 13:00:20,882 - INFO -  * Restarting with stat
+2026-03-30 13:00:27,522 - WARNING -  * Debugger is active!
+2026-03-30 13:00:27,691 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 13:00:29,437 - INFO - Prediction: {'class': 'Unknown', 'confidence': 46.34}
+2026-03-30 13:00:29,438 - INFO - 127.0.0.1 - - [30/Mar/2026 13:00:29] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:00:35,422 - INFO - 127.0.0.1 - - [30/Mar/2026 13:00:35] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 13:00:41,073 - INFO - 127.0.0.1 - - [30/Mar/2026 13:00:41] "GET / HTTP/1.1" 200 -
+2026-03-30 13:00:50,042 - INFO - 127.0.0.1 - - [30/Mar/2026 13:00:50] "[33mGET /installHook.js.map HTTP/1.1[0m" 404 -
+2026-03-30 13:02:48,377 - INFO - 127.0.0.1 - - [30/Mar/2026 13:02:48] "GET / HTTP/1.1" 200 -
+2026-03-30 13:02:48,567 - INFO - 127.0.0.1 - - [30/Mar/2026 13:02:48] "[33mGET /installHook.js.map HTTP/1.1[0m" 404 -
+2026-03-30 13:02:49,579 - INFO - 127.0.0.1 - - [30/Mar/2026 13:02:49] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 13:02:55,889 - INFO - 127.0.0.1 - - [30/Mar/2026 13:02:55] "[31m[1mPOST /api/classify HTTP/1.1[0m" 413 -
+2026-03-30 13:03:47,855 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 13:03:48,693 - INFO -  * Restarting with stat
+2026-03-30 13:03:54,497 - WARNING -  * Debugger is active!
+2026-03-30 13:03:54,516 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 13:04:22,494 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:22] "GET / HTTP/1.1" 200 -
+2026-03-30 13:04:23,098 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:23] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-30 13:04:30,471 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 90.58, 'probabilities': [0.81, 0.3, 5.46, 2.85, 90.58], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:04:30,472 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:30] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:36,024 - INFO - Prediction: {'class': 'Unknown', 'confidence': 43.61}
+2026-03-30 13:04:36,025 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:36] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:39,945 - WARNING - No face detected / invalid input
+2026-03-30 13:04:39,945 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:39] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:44,293 - WARNING - No face detected / invalid input
+2026-03-30 13:04:44,294 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:44] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:49,608 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 62.99, 'probabilities': [2.36, 3.42, 2.76, 28.47, 62.99], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:04:49,609 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:49] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:54,171 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 79.78, 'probabilities': [1.83, 79.78, 1.46, 9.08, 7.85], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:04:54,171 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:54] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:04:59,590 - INFO - Prediction: {'class': 'Unknown', 'confidence': 43.69}
+2026-03-30 13:04:59,591 - INFO - 127.0.0.1 - - [30/Mar/2026 13:04:59] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:05:04,094 - INFO - Prediction: {'class': 'Unknown', 'confidence': 47.92}
+2026-03-30 13:05:04,095 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:04] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:05:09,089 - INFO - Prediction: {'class': 'Unknown', 'confidence': 56.01}
+2026-03-30 13:05:09,089 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:09] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:05:16,299 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 68.9, 'probabilities': [2.33, 2.22, 22.14, 4.4, 68.9], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:05:16,300 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:16] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:05:36,326 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 13:05:37,030 - INFO -  * Restarting with stat
+2026-03-30 13:05:42,622 - WARNING -  * Debugger is active!
+2026-03-30 13:05:42,639 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 13:05:42,988 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:42] "GET / HTTP/1.1" 200 -
+2026-03-30 13:05:43,249 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-30 13:05:50,309 - INFO - Prediction: {'class': 'Unknown', 'confidence': 43.61}
+2026-03-30 13:05:50,309 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:50] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:05:55,075 - ERROR - Exception encountered when calling Conv2D.call().
+
+[1mThe convolution operation resulted in an empty output. Output shape: (0, 46, 46, 32). This can happen if the input is too small for the given kernel size, strides, dilation rate, and padding mode. Please check the input shape and convolution parameters.[0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(0, 48, 48, 3), dtype=float32)
+2026-03-30 13:05:55,078 - INFO - 127.0.0.1 - - [30/Mar/2026 13:05:55] "[35m[1mPOST /api/classify HTTP/1.1[0m" 500 -
+2026-03-30 13:10:34,635 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\util.py', reloading
+2026-03-30 13:10:35,255 - INFO -  * Restarting with stat
+2026-03-30 13:16:48,350 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-30 13:16:48,350 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 13:16:48,352 - INFO -  * Restarting with stat
+2026-03-30 13:16:56,125 - WARNING -  * Debugger is active!
+2026-03-30 13:16:56,143 - INFO -  * Debugger PIN: 881-164-103
+2026-03-30 13:16:56,622 - INFO - 127.0.0.1 - - [30/Mar/2026 13:16:56] "GET / HTTP/1.1" 200 -
+2026-03-30 13:16:56,937 - INFO - 127.0.0.1 - - [30/Mar/2026 13:16:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-30 13:17:01,428 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 89.23, 'probabilities': [1.12, 0.16, 7.8, 1.69, 89.23], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:17:01,428 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:01] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:05,305 - INFO - Prediction: {'class': 'virat kohli', 'confidence': 90.41, 'probabilities': [3.06, 0.08, 3.59, 2.87, 90.41], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:17:05,305 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:05] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:09,027 - ERROR - Exception encountered when calling Conv2D.call().
+
+[1mThe convolution operation resulted in an empty output. Output shape: (0, 46, 46, 32). This can happen if the input is too small for the given kernel size, strides, dilation rate, and padding mode. Please check the input shape and convolution parameters.[0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(0, 48, 48, 3), dtype=float32)
+2026-03-30 13:17:09,027 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:09] "[35m[1mPOST /api/classify HTTP/1.1[0m" 500 -
+2026-03-30 13:17:23,686 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 67.83, 'probabilities': [5.37, 67.83, 3.27, 22.68, 0.85], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:17:23,686 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:23] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:31,035 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 95.12, 'probabilities': [1.18, 95.12, 1.11, 2.51, 0.08], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:17:31,035 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:31] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:37,912 - ERROR - Exception encountered when calling Conv2D.call().
+
+[1mThe convolution operation resulted in an empty output. Output shape: (0, 46, 46, 32). This can happen if the input is too small for the given kernel size, strides, dilation rate, and padding mode. Please check the input shape and convolution parameters.[0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(0, 48, 48, 3), dtype=float32)
+2026-03-30 13:17:37,913 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:37] "[35m[1mPOST /api/classify HTTP/1.1[0m" 500 -
+2026-03-30 13:17:45,258 - INFO - Prediction: {'class': 'Unknown', 'confidence': 56.85}
+2026-03-30 13:17:45,260 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:45] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:50,085 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 80.37, 'probabilities': [2.9, 80.37, 3.63, 11.49, 1.6], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:17:50,086 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:50] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:17:54,424 - INFO - Prediction: {'class': 'Unknown', 'confidence': 56.85}
+2026-03-30 13:17:54,424 - INFO - 127.0.0.1 - - [30/Mar/2026 13:17:54] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:22:07,515 - INFO -  * Detected change in 'D:\\PROJECTS\\Celebrity Classn\\server\\app.py', reloading
+2026-03-30 13:22:08,215 - INFO -  * Restarting with stat
+2026-03-30 13:23:58,318 - INFO - Prediction: {'class': 'Unknown', 'confidence': 49.79}
+2026-03-30 13:23:58,319 - INFO - 127.0.0.1 - - [30/Mar/2026 13:23:58] "POST /api/classify HTTP/1.1" 200 -
+2026-03-30 13:24:02,369 - INFO - Prediction: {'class': 'dwayne johnson', 'confidence': 88.88, 'probabilities': [3.16, 88.88, 2.12, 2.13, 3.71], 'class_dictionary': {'cristiano ronaldo': 0, 'dwayne johnson': 1, 'novak djokovic': 2, 'serena williams': 3, 'virat kohli': 4}}
+2026-03-30 13:24:02,370 - INFO - 127.0.0.1 - - [30/Mar/2026 13:24:02] "POST /api/classify HTTP/1.1" 200 -

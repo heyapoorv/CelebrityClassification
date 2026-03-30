@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter (if any)
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Build / dist
+build/
+dist/
+
+# Temporary files
+*.tmp
+
+# TensorFlow cache
+*.h5
+*.pb
+
+# Node (if any frontend tools later)
+node_modules/
+
+# Large dataset (if any)
+dataset/
+data/
+
+# 🔥 OPTIONAL (only if model is too large)
+# best_clf_model.pkl
