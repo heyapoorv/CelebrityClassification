@@ -47,9 +47,7 @@ from server import util
 import logging
 from collections import Counter
 import os
-app = Flask(__name__, 
-            template_folder="../templates",
-            static_folder="../static")
+app = Flask(__name__)
 CORS(app)
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024
 
