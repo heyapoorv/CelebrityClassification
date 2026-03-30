@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import base64
 from pathlib import Path
-from wavelet import w2d
+from server.wavelet import w2d
 
 # =====================
 # Globals
